@@ -1,0 +1,59 @@
+.bg-main {
+    width: 450px;
+    /*height: 280px;*/
+    border: solid 1px red ;
+    background-color: aquamarine;
+}
+
+.profile-card {
+    width: 337px;
+    /*height: 415px;*/
+    background-color: whitesmoke;
+    border-radius: 18px;
+}
+
+.pcard-header {
+    background-color: rgb(14, 148, 158);
+    height: 115px;
+    border-radius: 18px 18px 0px 0px;
+}
+
+.pcard-body {
+    height: 250px;
+}
+
+.pcard-body p {
+    text-align: center;
+}
+
+.profile-pic {
+    border-radius: 100%;
+    border: solid 4px white;
+    margin: 8px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+hr {
+    color: gray;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.year {
+    font-weight: normal;
+    color: gray;
+}
+
+.city {
+    font-size: small;
+}
+
+.footer-content {
+
+}
