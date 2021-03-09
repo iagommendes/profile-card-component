@@ -1,59 +1,57 @@
-.bg-main {
-    width: 450px;
-    /*height: 280px;*/
-    border: solid 1px red ;
-    background-color: aquamarine;
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .profile-card {
-    width: 337px;
-    /*height: 415px;*/
-    background-color: whitesmoke;
-    border-radius: 18px;
-}
-
-.pcard-header {
-    background-color: rgb(14, 148, 158);
-    height: 115px;
-    border-radius: 18px 18px 0px 0px;
-}
-
-.pcard-body {
-    height: 250px;
-}
-
-.pcard-body p {
+    background-color: #06172d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 50px auto;
     text-align: center;
+    color: #ffffff;
+    border-radius: 36px;
 }
 
 .profile-pic {
-    border-radius: 100%;
-    border: solid 4px white;
-    margin: 8px;
+    width: 100%;
 }
 
-p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.profile-name {
+    
 }
 
-
-hr {
-    color: gray;
+.profile-skills {
+    font-size: 16px;
+    color: #c0c1c0;
 }
 
-.name {
-    font-weight: bold;
+.social {
+    font-size: 26px;
+    margin: 24px 0;
+    
 }
 
-.year {
-    font-weight: normal;
-    color: gray;
+.social > a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
-.city {
-    font-size: small;
+a:hover {
+    color: #c0c1c0;
 }
 
-.footer-content {
+button {
+    width: 100%;
+    height: 48px;
+    border: none;
+    color: #06172d;
+}
 
+button:hover {
+    background-color: #c0c1c0;
+    color: white;
+}
+
+.attribution {
+    text-align: center;
 }
